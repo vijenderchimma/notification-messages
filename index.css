@@ -1,0 +1,142 @@
+/* Write your code here. */
+* {
+  box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+  .main-container {
+    text-align: center;
+    font-family: "Roboto";
+    padding: 20px;
+  }
+  .main-heading {
+    color: #0f172a;
+    padding-bottom: 20px;
+  }
+  .text-error-container {
+    background-color: #ff0b37;
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+  }
+  .text-primary-container {
+    background-color: #0b69ff;
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+  }
+  .text-success-container {
+    background-color: #2dca73;
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+  }
+  .text-warning-container {
+    background-color: #ffb800;
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+  }
+  .image {
+    width: 30px;
+    height: 30px;
+  }
+  .text {
+    color: #ffffff;
+    padding-left: 20px;
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 768px) {
+  .main-container {
+    text-align: center;
+    font-family: "Roboto";
+    padding: 20px;
+  }
+  .main-heading {
+    color: #0f172a;
+    padding-bottom: 20px;
+  }
+  .text-error-container {
+    background-color: #ff0b37;
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+  }
+  .text-primary-container {
+    background-color: #0b69ff;
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+  }
+  .text-success-container {
+    background-color: #2dca73;
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+  }
+  .text-warning-container {
+    background-color: #ffb800;
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+  }
+  .image {
+    width: 40px;
+    height: 40px;
+  }
+  .text {
+    color: #ffffff;
+    padding-left: 20px;
+    font-size: 25px;
+  }
+}
